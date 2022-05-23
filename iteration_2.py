@@ -61,7 +61,7 @@ COMMANDS = {show_all:["show all"],
             add:["add"],
             change:["change"],
             phone:["phone"],
-            exit:["exit"]}
+            exit:["good bye", "close", "exit"]}
 
 
 def command_parser(user_input:str) -> tuple:
